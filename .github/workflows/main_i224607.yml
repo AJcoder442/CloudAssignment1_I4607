@@ -58,6 +58,7 @@ jobs:
         with:
           app-name: 'I224607'
           slot-name: 'Production'
-          package: ./myapp
+          package: .
+
 
 
