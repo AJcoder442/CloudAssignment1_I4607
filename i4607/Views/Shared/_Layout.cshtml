@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Fitness Tracker</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a asp-controller="Home" asp-action="Index">Introduction</a> |
+            <a asp-controller="Home" asp-action="Architecture">Architecture</a> |
+            <a asp-controller="Home" asp-action="AzureServices">Azure Services</a>
+        </nav>
+    </header>
+    <div class="container">
+        <main>@RenderBody()</main>
+    </div>
+    <footer>&copy; 2025 - Amir Singh (22K-4607) - Group I</footer>
+</body>
+</html>

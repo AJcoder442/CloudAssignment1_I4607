@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Project Architecture";
+}
+
+<div class="content">
+    <h1>Project Architecture</h1>
+    <h2>Methodology</h2>
+    <p>Agile development with tasks divided among team members for frontend, backend, and cloud setup using Azure services.</p>
+    <h2>Tentative Architecture</h2>
+    <p>Web/Mobile frontend on Azure App Service connects to APIs, storing data in Cosmos DB and photos in Blob Storage, with Functions for notifications.</p>
+    <h3>Diagram Description</h3>
+    <p>Top: Web/Mobile Frontend; Middle: Azure App Hosting -> APIs (CRUD/Auth); Bottom: Azure Cosmos DB (User/Workout Data), Azure Blob Storage (Progress Pics), Azure Functions (Notifications/Reminders); Base: Azure DevOps (CI/CD).</p>
+</div>
